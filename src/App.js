@@ -46,7 +46,7 @@ function App() {
         </mesh>
       
 
-      <Text color="beige" position={[0, 0, 1]} fontSize={1.5} font={font}>
+      <Text color="beige" position={[0, 0, 1]} fontSize={1} font={font}>
         hello
       </Text>
     </>
