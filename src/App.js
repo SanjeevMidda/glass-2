@@ -7,7 +7,7 @@ import {
 } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
-import font from "./fonts/PPPangaia-BoldItalic.otf";
+import font from "./fonts/PPPangaia-Bold.otf";
 import { useControls } from "leva";
 
 function App() {
