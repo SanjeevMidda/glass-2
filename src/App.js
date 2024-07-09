@@ -31,7 +31,8 @@ function App() {
 
   return (
     <>
-      <PresentationControls>
+           <OrbitControls />
+
         <mesh ref={cube}>
           <torusGeometry />
           <MeshTransmissionMaterial
@@ -43,7 +44,7 @@ function App() {
             chromaticAberration={0.05}
           />
         </mesh>
-      </PresentationControls>
+      
 
       <Text color="beige" position={[0, 0, 1]} fontSize={1.5} font={font}>
         hello
