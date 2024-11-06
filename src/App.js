@@ -13,7 +13,7 @@ import { useControls } from "leva";
 function App() {
   const cube = useRef();
 
-  console.log(cube);
+  console.log(cube.rotation.y);
 
   useFrame(() => {
     cube.current.rotation.y += 0.02;
